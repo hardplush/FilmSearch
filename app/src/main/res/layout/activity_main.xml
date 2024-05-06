@@ -23,18 +23,18 @@
         android:layout_marginBottom="25dp"/>
 
     <FrameLayout
+        android:id="@+id/bottom_bar"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/colorAccent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <FrameLayout
         android:id="@+id/top_bar"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:background="@color/colorPrimaryDark"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintHeight_percent="0.10" />
-
-    <FrameLayout
-        android:id="@+id/bottom_bar"
-        android:layout_width="match_parent"
-        android:layout_height="70dp"
-        android:background="@color/colorAccent"
-        app:layout_constraintBottom_toBottomOf="parent"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
